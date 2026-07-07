@@ -1,16 +1,12 @@
-Install Fortran compiler (Linux, WSL):
-
+### Install Fortran compiler (Linux, WSL):
 sudo apt update
 sudo apt install gfortran
 
-Verify:
-
+### Verify:
 gfortran --version
 
-Compile:
-
+### Compile:
 fgortran hello.f90 -o hello
 
-Run:
-
+### Run:
 ./hello
